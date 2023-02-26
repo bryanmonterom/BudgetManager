@@ -15,24 +15,19 @@ With this app you can manage and track your expenses!
 ## Screenshots
 
 ### Home
-![Home]()
-
-
-### Accounts Summary
-![AddProject]()
-
-### Account Types
-![DetailsOfATask]()
-
+![Home](https://i.imgur.com/qN4JKQd.png)
 
 ### Categories
-![AddProject]()
+![AddProject](https://i.imgur.com/lKLrPQk.png)
+
+### Account Types
+![AddProject](https://i.imgur.com/MnevfEB.png)
 
 ### Transactions
-![AddProject]()
+![AddProject](https://i.imgur.com/FsqVPRF.png)
 
 ### Transactions Calendar View
-![DetailsOfATask]()
+![DetailsOfATask](https://i.imgur.com/cgoZ44M.png)
 
 
 
