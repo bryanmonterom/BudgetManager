@@ -1,0 +1,60 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
+
+body {
+    background: url("https://img.freepik.com/free-photo/blue-concrete-textured-background_53876-63608.jpg?w=1060&t=st=1673010878~exp=1673011478~hmac=901cbf7894de143f27b13cf8c7816fdd19fea442032c05a151772effa11efddb")no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.logo {
+    width:60px;
+    height:auto;
+}
+
+.img-main {
+    width: 200px
+}
+
+.logo-container {
+    width: 25rem;
+    background-color: white;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    justify-items: center;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    margin: 1rem;
+    padding: 1rem;
+    border:1px solid #e4e4e4;
+    border-radius: 10px
+}
+
+.app-container {
+    background-color: white;
+    border: 1px solid #e4e4e4;
+    padding:2rem;
+    border-radius:5px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}

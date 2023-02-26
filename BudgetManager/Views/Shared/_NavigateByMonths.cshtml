@@ -1,0 +1,18 @@
+﻿@model DateTime
+
+
+
+<h4>
+    <a asp-route-month="@ViewBag.PreviousMonth"
+       asp-route-year="@ViewBag.PreviousYear"
+       class="btn-secondary btn">
+        <i class="bi-chevron-left"></i>
+    </a>
+    @Model.ToString("MMM")-@Model.Year
+
+
+    <a asp-route-month="@ViewBag.NextMonth"
+       asp-route-year="@ViewBag.NextYear"
+       class="btn-secondary btn"><i class="bi-chevron-right"></i></a>
+</h4>
+

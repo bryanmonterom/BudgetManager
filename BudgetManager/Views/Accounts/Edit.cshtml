@@ -1,0 +1,51 @@
+﻿@model AccountViewModel
+@{
+    ViewData["Title"] = "Edit Account";
+}
+
+
+<h1>Edit account: @Model.Name</h1>
+
+<h5>
+    The account refers to the differents balances you have on your
+    credit cards, savings account, loans, etc.
+</h5>
+
+<form asp-action="Edit">
+    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+    <input type="hidden" asp-for="Id"/>
+
+    <div class="mb-3">
+        <label asp-for="Name" class="form-label"></label>
+        <input asp-for="Name" class="form-control" />
+        <span asp-validation-for="Name" class="text-danger"></span>
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="IdAccountType" class="form-label"></label>
+        <select asp-for="IdAccountType" class="form-select" asp-items="Model.AccountTypes"></select>
+        <span asp-validation-for="IdAccountType" class="text-danger"></span>
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="Balance" class="form-label"></label>
+        <input asp-for="Balance" class="form-control" />
+        <span asp-validation-for="Balance" class="text-danger"></span>
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="Description" class="form-label"></label>
+        <textarea asp-for="Description" class="form-control" rows=3></textarea>
+        <span asp-validation-for="Description" class="text-danger"></span>
+    </div>
+
+    <button type="submit" class="btn btn-success">Edit</button>
+    <a class="btn-secondary btn" asp-action="Index">Back to home</a>
+</form>
+
+@section Scripts{
+    <partial name="_ValidationScriptsPartial" />
+}
+
+
+

@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <_PublishTargetUrl>D:\BudgetManager</_PublishTargetUrl>
+    <History>True|2023-02-25T14:45:46.3370880Z;True|2023-01-06T09:24:15.1978976-04:00;True|2023-01-06T08:51:33.9510060-04:00;True|2023-01-06T01:50:47.4648093-04:00;True|2023-01-06T01:50:15.4507673-04:00;True|2023-01-06T01:45:00.8714322-04:00;False|2023-01-06T01:44:45.8719867-04:00;False|2023-01-06T01:44:23.9065969-04:00;True|2023-01-06T01:41:02.9266162-04:00;True|2023-01-05T23:43:37.8979895-04:00;</History>
+    <LastFailureDetails />
+  </PropertyGroup>
+</Project>

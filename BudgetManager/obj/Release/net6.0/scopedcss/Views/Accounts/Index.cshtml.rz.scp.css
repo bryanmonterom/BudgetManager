@@ -1,0 +1,35 @@
+.container-balances[b-poomazshd9] {
+    display: flex;
+    justify-content: space-around;
+    font-size: 26px;
+    text-align: center
+}
+
+.asset[b-poomazshd9] {
+    color: darkgreen;
+}
+
+.passive[b-poomazshd9] {
+    color: darkred;
+}
+
+.accordion-accounts button[b-poomazshd9] {
+    color: black !important;
+    font-size: 20px
+}
+
+    .accordion-accounts button > span[b-poomazshd9] {
+        display: flex;
+        justify-content: space-between;
+        width: 100%
+    }
+
+.accordion-accounts ul li[b-poomazshd9] {
+    display: flex;
+    justify-content: space-between;
+    width: 100%
+}
+
+.accordion-accounts .accordion-collapse[b-poomazshd9] {
+    font-size: 18px
+}

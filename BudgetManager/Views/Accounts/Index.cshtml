@@ -1,0 +1,106 @@
+﻿@model IEnumerable<AccountIndexViewModel>
+
+@{
+    ViewData["Title"] = "Accounts";
+
+    string formatBalances(decimal balance)
+    {
+        return Math.Abs(balance).ToString("N");
+    }
+
+    string classBalance(decimal balance)
+    {
+
+        return balance >= 0 ? "asset" : "passive";
+    }
+}
+
+<h1>
+    Accounts
+</h1>
+
+<a asp-action="Create" class="btn btn-success mb-3">
+    <i class="bi bi-plus-circle-fill"></i>
+    Create new
+</a>
+
+<div class="container-balances mb-3">
+
+    <div>
+        <strong>Assets</strong>
+        <div class="asset">
+            @formatBalances(Model.Where(a=> a.TotalBalance > 0).Sum(a=> a.TotalBalance))
+        </div>
+    </div>
+
+    <div>
+        <strong>Liabilities</strong>
+        <div class="passive">
+            @formatBalances(Model.Where(a=> a.TotalBalance < 0).Sum(a=> a.TotalBalance))
+        </div>
+    </div>
+
+    <div>
+        <div>
+            <strong>Total</strong>
+        </div>
+        <div>
+            @formatBalances(Model.Sum(a=> a.TotalBalance))
+        </div>
+    </div>
+
+</div>
+
+<div class="accordion accordion-accounts">
+    @foreach (var item in Model)
+    {
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="header1">
+                @{
+                    var id = item.AccountType.Replace(" ", "");
+                    var dataBSTarget = "#" + id;
+                    var classAccountType = classBalance(item.TotalBalance);
+                }
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                    data-bs-target="@dataBSTarget">
+                        <span class="me-3">
+                            <span> <strong>
+                            <i style="margin-right:1rem"class="@item.Icon"></i>
+                                @item.AccountType</strong></span>
+                            <span class="me-3 @classAccountType">@formatBalances(item.TotalBalance)</span>
+                        </span>
+                    </button>
+                </h2>
+                <div id="@id" class="accordion-collapse collapse">
+                    <div>
+                        <ul class="list-group">
+                        @foreach (var account in item.Accounts)
+                        {
+                            var classAccount = classBalance(account.Balance);
+                                    <li class="list-group-item">
+                                        <span>
+                                            <strong><a asp-action="Detail" asp-route-id="@account.Id">@account.Name</a></strong>
+                                        </span>
+                                        <span >
+                                            <span style="margin-right:1rem">
+                                                <a class="btn-warning btn" asp-action="Edit" asp-route-id="@account.Id">
+                                                    <i class="bi-pencil-fill"></i>
+                                                </a>
+                                                <a class="btn-danger btn" asp-action="Delete" asp-route-id="@account.Id">
+                                                    <i class="bi-trash-fill"></i>
+                                                </a>
+                                            </span>
+
+                                            <span class="@classAccount">@formatBalances(account.Balance)</span>
+                                        </span>
+
+                                    </li>
+                            ;
+                        }
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+    }
+    </div>

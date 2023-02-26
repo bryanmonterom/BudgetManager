@@ -1,0 +1,161 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = BudgetManager
+build_property.RootNamespace = BudgetManager
+build_property.ProjectDir = C:\Users\miste\Desktop\projects\Aprende ASP.NET Core MVC 6 Haciendo Proyectos Desde Cero\BudgetManager - Copy\BudgetManager\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\miste\Desktop\projects\Aprende ASP.NET Core MVC 6 Haciendo Proyectos Desde Cero\BudgetManager - Copy\BudgetManager
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/miste/Desktop/projects/Aprende ASP.NET Core MVC 6 Haciendo Proyectos Desde Cero/BudgetManager - Copy/BudgetManager/Views/Accounts/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudHNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/miste/Desktop/projects/Aprende ASP.NET Core MVC 6 Haciendo Proyectos Desde Cero/BudgetManager - Copy/BudgetManager/Views/Accounts/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudHNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/miste/Desktop/projects/Aprende ASP.NET Core MVC 6 Haciendo Proyectos Desde Cero/BudgetManager - Copy/BudgetManager/Views/Accounts/Detail.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudHNcRGV0YWlsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/miste/Desktop/projects/Aprende ASP.NET Core MVC 6 Haciendo Proyectos Desde Cero/BudgetManager - Copy/BudgetManager/Views/Accounts/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudHNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/miste/Desktop/projects/Aprende ASP.NET Core MVC 6 Haciendo Proyectos Desde Cero/BudgetManager - Copy/BudgetManager/Views/AccountTypes/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFR5cGVzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/miste/Desktop/projects/Aprende ASP.NET Core MVC 6 Haciendo Proyectos Desde Cero/BudgetManager - Copy/BudgetManager/Views/AccountTypes/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFR5cGVzXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/miste/Desktop/projects/Aprende ASP.NET Core MVC 6 Haciendo Proyectos Desde Cero/BudgetManager - Copy/BudgetManager/Views/AccountTypes/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFR5cGVzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/miste/Desktop/projects/Aprende ASP.NET Core MVC 6 Haciendo Proyectos Desde Cero/BudgetManager - Copy/BudgetManager/Views/AccountTypes/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFR5cGVzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/miste/Desktop/projects/Aprende ASP.NET Core MVC 6 Haciendo Proyectos Desde Cero/BudgetManager - Copy/BudgetManager/Views/Categories/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcmllc1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/miste/Desktop/projects/Aprende ASP.NET Core MVC 6 Haciendo Proyectos Desde Cero/BudgetManager - Copy/BudgetManager/Views/Categories/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcmllc1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/miste/Desktop/projects/Aprende ASP.NET Core MVC 6 Haciendo Proyectos Desde Cero/BudgetManager - Copy/BudgetManager/Views/Categories/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcmllc1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/miste/Desktop/projects/Aprende ASP.NET Core MVC 6 Haciendo Proyectos Desde Cero/BudgetManager - Copy/BudgetManager/Views/Categories/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcmllc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/miste/Desktop/projects/Aprende ASP.NET Core MVC 6 Haciendo Proyectos Desde Cero/BudgetManager - Copy/BudgetManager/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/miste/Desktop/projects/Aprende ASP.NET Core MVC 6 Haciendo Proyectos Desde Cero/BudgetManager - Copy/BudgetManager/Views/Home/NotFound.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxOb3RGb3VuZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/miste/Desktop/projects/Aprende ASP.NET Core MVC 6 Haciendo Proyectos Desde Cero/BudgetManager - Copy/BudgetManager/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/miste/Desktop/projects/Aprende ASP.NET Core MVC 6 Haciendo Proyectos Desde Cero/BudgetManager - Copy/BudgetManager/Views/Shared/_AmountSummary.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9BbW91bnRTdW1tYXJ5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/miste/Desktop/projects/Aprende ASP.NET Core MVC 6 Haciendo Proyectos Desde Cero/BudgetManager - Copy/BudgetManager/Views/Shared/_LinksLogin.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MaW5rc0xvZ2luLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/miste/Desktop/projects/Aprende ASP.NET Core MVC 6 Haciendo Proyectos Desde Cero/BudgetManager - Copy/BudgetManager/Views/Shared/_NavigateByMonths.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9OYXZpZ2F0ZUJ5TW9udGhzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/miste/Desktop/projects/Aprende ASP.NET Core MVC 6 Haciendo Proyectos Desde Cero/BudgetManager - Copy/BudgetManager/Views/Shared/_Pagination.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9QYWdpbmF0aW9uLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/miste/Desktop/projects/Aprende ASP.NET Core MVC 6 Haciendo Proyectos Desde Cero/BudgetManager - Copy/BudgetManager/Views/Shared/_TransactionsReportsDetailed.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9UcmFuc2FjdGlvbnNSZXBvcnRzRGV0YWlsZWQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/miste/Desktop/projects/Aprende ASP.NET Core MVC 6 Haciendo Proyectos Desde Cero/BudgetManager - Copy/BudgetManager/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/miste/Desktop/projects/Aprende ASP.NET Core MVC 6 Haciendo Proyectos Desde Cero/BudgetManager - Copy/BudgetManager/Views/Transactions/Calendar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHJhbnNhY3Rpb25zXENhbGVuZGFyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/miste/Desktop/projects/Aprende ASP.NET Core MVC 6 Haciendo Proyectos Desde Cero/BudgetManager - Copy/BudgetManager/Views/Transactions/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHJhbnNhY3Rpb25zXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/miste/Desktop/projects/Aprende ASP.NET Core MVC 6 Haciendo Proyectos Desde Cero/BudgetManager - Copy/BudgetManager/Views/Transactions/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHJhbnNhY3Rpb25zXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/miste/Desktop/projects/Aprende ASP.NET Core MVC 6 Haciendo Proyectos Desde Cero/BudgetManager - Copy/BudgetManager/Views/Transactions/ExcelReport.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHJhbnNhY3Rpb25zXEV4Y2VsUmVwb3J0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/miste/Desktop/projects/Aprende ASP.NET Core MVC 6 Haciendo Proyectos Desde Cero/BudgetManager - Copy/BudgetManager/Views/Transactions/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHJhbnNhY3Rpb25zXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/miste/Desktop/projects/Aprende ASP.NET Core MVC 6 Haciendo Proyectos Desde Cero/BudgetManager - Copy/BudgetManager/Views/Transactions/Monthly.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHJhbnNhY3Rpb25zXE1vbnRobHkuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/miste/Desktop/projects/Aprende ASP.NET Core MVC 6 Haciendo Proyectos Desde Cero/BudgetManager - Copy/BudgetManager/Views/Transactions/Weekly.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHJhbnNhY3Rpb25zXFdlZWtseS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/miste/Desktop/projects/Aprende ASP.NET Core MVC 6 Haciendo Proyectos Desde Cero/BudgetManager - Copy/BudgetManager/Views/Transactions/_SubMenu.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHJhbnNhY3Rpb25zXF9TdWJNZW51LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/miste/Desktop/projects/Aprende ASP.NET Core MVC 6 Haciendo Proyectos Desde Cero/BudgetManager - Copy/BudgetManager/Views/Users/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlcnNcUmVnaXN0ZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/miste/Desktop/projects/Aprende ASP.NET Core MVC 6 Haciendo Proyectos Desde Cero/BudgetManager - Copy/BudgetManager/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/miste/Desktop/projects/Aprende ASP.NET Core MVC 6 Haciendo Proyectos Desde Cero/BudgetManager - Copy/BudgetManager/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/miste/Desktop/projects/Aprende ASP.NET Core MVC 6 Haciendo Proyectos Desde Cero/BudgetManager - Copy/BudgetManager/Views/Accounts/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudHNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-poomazshd9
+
+[C:/Users/miste/Desktop/projects/Aprende ASP.NET Core MVC 6 Haciendo Proyectos Desde Cero/BudgetManager - Copy/BudgetManager/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-8wroi3wvza
+
+[C:/Users/miste/Desktop/projects/Aprende ASP.NET Core MVC 6 Haciendo Proyectos Desde Cero/BudgetManager - Copy/BudgetManager/Views/Users/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlcnNcTG9naW4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-b5pndggw9h
+
+[C:/Users/miste/Desktop/projects/Aprende ASP.NET Core MVC 6 Haciendo Proyectos Desde Cero/BudgetManager - Copy/BudgetManager/Views/Users/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlcnNcX0xheW91dC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = b-b8r35juxkg

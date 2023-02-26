@@ -1,0 +1,19 @@
+#resortable {
+    cursor: move;
+}
+
+.container-balances {
+    display: flex;
+    justify-content: space-around;
+    font-size: 26px;
+    text-align: center
+}
+
+.asset {
+    color: darkgreen;
+}
+
+.passive {
+    color: darkred;
+}
+

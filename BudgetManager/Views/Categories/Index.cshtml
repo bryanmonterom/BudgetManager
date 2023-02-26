@@ -1,0 +1,60 @@
+﻿@model PaginationResponse<Category>
+@{
+    ViewData["Title"] = "Categories";
+}
+<h1>Categories</h1>
+<h5>
+    The category lets you identify where your money is going
+    and from where is coming
+</h5>
+
+<a asp-action="Create" class="btn btn-success mb-3">
+      <i class="bi bi-plus-circle-fill"></i>
+    Create new</a>
+
+<table class="table">
+    <thead>
+        <tr>
+            <td><strong>Actions</strong></td>
+            <td><strong>Name</strong></td>
+            <td><strong>Type</strong></td>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model.Items)
+        {
+            <tr>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@item.Id" class="btn btn-warning">Edit</a>
+                    <a asp-action="Delete" asp-route-id="@item.Id" class="btn btn-danger">Delete</a>
+                </td>
+                <td>@item.Name</td>
+                <td>@item.IdTransactionType.ToString()</td>
+            </tr>
+        }
+    </tbody>
+</table>
+<div class="row">
+    <label>Records to show</label>
+    <div class="mb-3 col-auto" >
+        <select asp-for=@Model.RecordsPerPage id="recordsPerPage" class="form-select">
+            <option>5</option>
+            <option>10</option>
+            <option>15</option>
+        </select>
+    </div>
+</div>
+<partial name="_Pagination" />
+
+@section Scripts{
+    <script>
+    $("#recordsPerPage").change(function(){
+        const records = $(this).val()
+        var baseUrl = @Model.BaseUrl
+        console.log(baseUrl)
+        location.href = baseUrl+`\?page=1&recordsPerPage=${records}`
+    })
+
+    </script>
+    
+}
